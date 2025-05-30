@@ -1,6 +1,6 @@
 {
+  "homepage": "https://Doobieshankar.github.io/dreamzone/",
   "name": "dreamzone",
-  "homepage": "https://doobieshankar.github.io/dreamzone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
