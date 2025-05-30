@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="flex flex-col items-center justify-center min-h-svh">
-      <Router basename="/dreamzone">
+      <Router basename="/dreamzone/">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
