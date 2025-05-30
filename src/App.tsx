@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="flex flex-col items-center justify-center min-h-svh">
-      <Router basename="/dreamzone">
+      <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/dreamzone/" element={<Home />} />
           <Route
             path="/*"
             element={
