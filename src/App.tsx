@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="flex flex-col items-center justify-center min-h-svh">
-      <Router>
+      {/* <Router>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
@@ -15,8 +15,8 @@ function App() {
             }
           />
         </Routes>
-      </Router> 
-     
+      </Router>  */}
+      <Home />
     </div>
   );
 }
